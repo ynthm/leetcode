@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestSolution010 {
+
     @Test
     @DisplayName("Two Sum")
     void testTwoNum()
