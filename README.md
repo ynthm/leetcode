@@ -1,10 +1,10 @@
-# leetcode
+# LeetCode Solutions
 
 practice makes perfect.
 
 LeetCode of algorithms with java solution
 
-按题号排序，源代码在 [src][ src ] 目录中，相关解题都在 [note][ node ] 目录中
+按题号排序，源代码在 [src][src] 目录中，相关解题都在 [note][note] 目录中
 
 ## Easy
 
