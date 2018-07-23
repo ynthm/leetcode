@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TestSolution010 {
 
     @Test
-    @DisplayName("Two Sum")
+    @DisplayName("001 Two Sum")
     void testTwoNum()
     {
         int[] nums=new int[]{2,7,11, 15};
