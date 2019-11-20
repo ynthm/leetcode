@@ -1,10 +1,14 @@
 # LeetCode Solutions
 
-practice makes perfect.
+[中文官网](https://leetcode-cn.com/problemset/all/)
+
+**practice makes perfect.**
 
 LeetCode of algorithms with java solution
 
-按题号排序，源代码在 [src][src] 目录中，相关解题都在 [note][note] 目录中
+源代码在 [src][src] 目录中，相关解题都在 [note][note] 目录中
+
+
 
 ## Easy
 

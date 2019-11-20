@@ -1,7 +1,7 @@
 package common.beans;
 
 /**
- * Author : Ynthm
+ * @author : Ynthm
  */
 public class TreeNode {
     public int      val;

@@ -55,16 +55,39 @@ public class Solution010 {
         int[] hash = new int[128];
         for (int i = 0; i < len; ++i) {
             char c = s.charAt(i);
+            //
             if (hash[c] > preP) {
                 preP = hash[c];
             }
-            int l = i - preP + 1;
-            hash[c] = i + 1;
+
+            // 计算最长子串的长度
+            int l = i - preP;
+            // 记录上一次索引
+            hash[c] = i;
+            // 取最大值
             if (l > max) {
                 max = l;
             }
         }
 
         return max;
+    }
+
+    public int lengthOfLongestSubstring1(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[128]; // current index of character
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
+        }
+        return ans;
+    }
+
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+
+        return 1d;
     }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Author : Ynthm
+ * @author : Ynthm
  */
 public class Interval {
     public int start;

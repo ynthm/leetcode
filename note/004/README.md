@@ -27,6 +27,50 @@ The median is (2 + 3)/2 = 2.5
 **Tags:** Array, Binary Search, Divide and Conquer
 
 
+
+```java
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        
+    }
+}
+```
+
+
+
+寻找两个有序数组的中位数
+
+
+
+给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
+
+请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
+
+你可以假设 nums1 和 nums2 不会同时为空。
+
+示例 1:
+
+```
+nums1 = [1, 3]
+nums2 = [2]
+
+则中位数是 2.0
+```
+
+
+示例 2:
+
+```
+nums1 = [1, 2]
+nums2 = [3, 4]
+
+则中位数是 (2 + 3)/2 = 2.5
+```
+
+
+
+
+
 ## 思路
 
 题意是给你两个已排序的递增数组，让你找出其中位数。
@@ -45,9 +89,7 @@ The median is (2 + 3)/2 = 2.5
 
 2. 当 `k = 1` 时，也就是只需再找一个数即可，也就是取两者当前较小的那个即可。
 
-特别地，我们选取 `m = k / 2`，下面是我画的草图，希望能帮助大家理解。
-
-![](https://raw.githubusercontent.com/Blankj/awesome-java-leetcode/master/note/004/my_draw.jpg)
+特别地，我们选取 `m = k / 2`
 
 借助上面的理论，你能写出相关代码了吗？
 
@@ -77,11 +119,6 @@ class Solution {
     }
 }
 ```
-
-
-## 结语
-
-如果你同我一样热爱数据结构、算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[awesome-java-leetcode][ajl]
 
 
 
